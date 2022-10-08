@@ -23,16 +23,11 @@ import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.servers.Server;
 
-/**
- * @author leeshawver
- *
- */
-
 @RequestMapping("/jeeps")
 @OpenAPIDefinition(info = @Info(title = "Jeep Sales Service"), servers = {
-		@Server(url = "http://localhost:8080", description = "Local server.")})
+		@Server(url = "http://localhost:8080", description = "Local server.") })
 public interface JeepSalesController {
-	
+
 	// @formatter:off
 	@Operation(
 			summary = "Returns a list of Jeeps",
@@ -81,6 +76,13 @@ public interface JeepSalesController {
 				JeepModel model,
 			@RequestParam(required = false)
 				String trim);
+	
+	/**
+	@GetMapping
+	@ResponseStatus(code = HttpStatus.OK)
+	List<Jeep> fetchJeeps(@RequestParam JeepModel model, @RequestParam String trim);
+	 * 
+ 	*/	
 	// @formatter:on
 
 }
