@@ -9,11 +9,6 @@ import org.springframework.boot.test.web.server.LocalServerPort;
 
 import lombok.Getter;
 
-/**
- * @author leeshawver
- *
- */
-
 
 public class BaseTest {
 	@LocalServerPort
@@ -23,8 +18,20 @@ public class BaseTest {
 	@Getter
 	public TestRestTemplate restTemplate;
 	
-	protected String getBaseUri() {
+	/**
+	 * 
+	 * @return
+	 */
+	protected String getBaseUriForJeeps() {
 		return String.format("http://localhost:%d/jeeps", serverPort);
+	}
+
+	/**
+	 * 
+	 * @return
+	 */
+	protected String getBaseUriForOrders() {
+		return String.format("http://localhost:%d/orders", serverPort);
 	}
 
 }

@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package com.promineotech.jeep.dao;
+
+import java.util.Optional;
+
+import javax.validation.constraints.NotNull;
+
+import com.promineotech.jeep.entity.Color;
+import com.promineotech.jeep.entity.Customer;
+import com.promineotech.jeep.entity.Engine;
+import com.promineotech.jeep.entity.Jeep;
+import com.promineotech.jeep.entity.JeepModel;
+
+public interface JeepOrderDao {
+
+	/**
+	 * @param customer
+	 * @return
+	 */
+	Optional <Customer> fetchCustomer(@NotNull String customerId);
+	
+	Jeep fetchModel(JeepModel model, String trim, int doors);
+	
+	Color fetchColor(String colorId);
+	
+	Engine fetchEngine(String engineId);
+	
+	Tire fetchTire(String tireId);
+
+}

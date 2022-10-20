@@ -1,0 +1,11 @@
+1665959376198	Extract method 'createOrderBody'
+1665973193691	Rename method 'getBaseUri'
+1665973880114	Delete element
+1665973920244	Copy compilation unit
+1666146817394	Delete element
+1666148451621	Extract method 'getCustomer'
+1666148487585	Extract method 'getModel'
+1666148500513	Extract method 'getColor'
+1666148514249	Extract method 'getEngine'
+1666148526898	Extract method 'getTire'
+1666210164435	Delete element

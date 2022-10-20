@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="FetchJeepTest.testThatAnErrorIsReturnedWhenAnInvalidValueIsSupplied(String, String, String)" project="jeep-sales" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.promineotech.jeep.controller.FetchJeepTest" time="1.991" displayname="FetchJeepTest" uniqueid="[engine:junit-jupiter]/[class:com.promineotech.jeep.controller.FetchJeepTest]">
+    <testsuite name="testThatAnErrorIsReturnedWhenAnInvalidValueIsSupplied(com.promineotech.jeep.controller.FetchJeepTest)" time="1.991" displayname="testThatAnErrorIsReturnedWhenAnInvalidValueIsSupplied(String, String, String)" parameters="java.lang.String,java.lang.String,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:com.promineotech.jeep.controller.FetchJeepTest]/[test-template:testThatAnErrorIsReturnedWhenAnInvalidValueIsSupplied(java.lang.String, java.lang.String, java.lang.String)]">
+      <testcase name="testThatAnErrorIsReturnedWhenAnInvalidValueIsSupplied" classname="com.promineotech.jeep.controller.FetchJeepTest" time="1.991" dynamicTest="true" displayname="[1] model=WRANGLER, trim=@#$%^&amp;, reason=Trim contains non alphanumerica characters" parameters="java.lang.String,java.lang.String,java.lang.String" uniqueid="[engine:junit-jupiter]/[class:com.promineotech.jeep.controller.FetchJeepTest]/[test-template:testThatAnErrorIsReturnedWhenAnInvalidValueIsSupplied(java.lang.String, java.lang.String, java.lang.String)]/[test-template-invocation:#1]"/>
+    </testsuite>
+  </testsuite>
+</testrun>

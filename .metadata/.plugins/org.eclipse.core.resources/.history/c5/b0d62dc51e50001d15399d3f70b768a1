@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+package com.promineotech.jeep.controller;
+
+import javax.validation.Valid;
+
+import com.promineotech.jeep.entity.Order;
+import com.promineotech.jeep.entity.OrderRequest;
+
+/**
+ * @author leeshawver
+ *
+ */
+public class DefaultJeepOrderController implements JeepOrderController {
+
+	@Override
+	public Order createOrder(@Valid OrderRequest orderRequest) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

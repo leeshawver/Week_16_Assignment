@@ -3,6 +3,8 @@
  */
 package com.promineotech.jeep.entity;
 
+import lombok.Builder;
+
 /**
  * @author leeshawver
  *

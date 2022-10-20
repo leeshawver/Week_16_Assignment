@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package com.promineotech.jeep.controller;
+
+import javax.validation.Valid;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.promineotech.jeep.entity.Order;
+import com.promineotech.jeep.entity.OrderRequest;
+
+@RestController
+public class DefaultJeepOrderController implements JeepOrderController {
+
+	@Override
+	public Order createOrder(@Valid OrderRequest orderRequest) {
+		return null;
+	}
+
+}
